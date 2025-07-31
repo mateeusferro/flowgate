@@ -30,3 +30,10 @@ spring:
                 - Path=/fineval/**
               filters:
                 - StripPrefix=1
+
+            - id: schedula
+              uri: http://127.0.0.1:5000
+              predicates:
+                - Path=/schedula/**
+              filters:
+                - StripPrefix=1
